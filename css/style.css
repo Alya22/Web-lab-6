@@ -1,0 +1,469 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_res\.scss}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0; }
+
+/* 400 */
+@font-face {
+  font-family: "Catamaran";
+  src: url("../fonts/Catamaran-Regular.ttf"); }
+/* 500 */
+@font-face {
+  font-family: "Catamaran-Medium";
+  src: url("../fonts/Catamaran-Medium.ttf"); }
+/* 900 */
+@font-face {
+  font-family: "Catamaran-Black";
+  src: url("../fonts/Catamaran-Black.ttf"); }
+/* 300 */
+@font-face {
+  font-family: "Catamaran-Lite";
+  src: url("../fonts/Catamaran-Light.ttf"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\000031}}
+.slider {
+  height: 100vh;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\000036}}
+.slider section {
+  height: 100vh; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\000039}}
+.head {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/back.jpg);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000319}}
+.logotype {
+  width: 276px;
+  height: 109px;
+  background: url(../img/logo.png);
+  margin-left: 28px;
+  margin-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000326}}
+.logo {
+  margin-left: 150px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000330}}
+.logo h2 {
+  text-align: center;
+  font-family: 'Catamaran-Medium', sans-serif;
+  font-size: 36;
+  color: #333333;
+  letter-spacing: 0.3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000337}}
+.form {
+  width: 345px;
+  margin-right: 165px;
+  background-color: #2e3e40;
+  -webkit-box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+          box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000343}}
+.form > input {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000346}}
+.form > div {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000349}}
+.inp-1, .inp-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  height: 310px;
+  padding: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000356}}
+.form > input:checked + label {
+  color: #ffffff;
+  background: #2e3e40;
+  opacity: 1;
+  width: 74px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000362}}
+#block-1:checked ~ #inputs-1,
+#block-2:checked ~ #inputs-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000367}}
+.button {
+  padding: 11px 39px 11px 62.8px;
+  font-family: "Catamaran-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1.8px;
+  border: 0px;
+  color: #2e3e40;
+  background-color: #ffffff;
+  opacity: 0.7;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  margin-bottom: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000382}}
+.input {
+  background-color: #ffffff;
+  width: 310px;
+  height: 30px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  color: #2e3e40;
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 1.8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\0000394}}
+.label_text {
+  display: block;
+  color: #ffffff;
+  font-family: "Catamaran-light", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  height: 40px;
+  margin: 0 30px 8px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003104}}
+.reg_button {
+  background-color: #ff6600;
+  height: 40px;
+  width: 323px;
+  color: #333333;
+  font-family: "Catamaran-Black", sans-serif;
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 3px;
+  border: 0px;
+  margin-bottom: 20px;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003118}}
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003126}}
+.text-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003132}}
+.text-main h2 {
+  color: #00a8b2;
+  font-size: 30pt;
+  font-family: "Catamaran-Black", sans-serif;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003139}}
+.text-main p {
+  display: block;
+  font-size: 14pt;
+  width: 68%;
+  margin-bottom: 40px;
+  margin-top: 24px;
+  font-family: "Catamaran-Light", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003147}}
+.all-elements {
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003156}}
+.item__desc {
+  width: 210px;
+  text-align: center;
+  font-family: "Catamaran", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003163}}
+.items h3 {
+  font-family: "Catamaran-Black", sans-serif;
+  color: #00a8b2;
+  letter-spacing: 0.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003169}}
+.item-1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px;
+  width: 77px;
+  height: 77px;
+  background: url(../img/icon_sprites.png) -10px -107px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003178}}
+.item-2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px;
+  width: 77px;
+  height: 77px;
+  background: url(../img/icon_sprites.png) -10px -10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003187}}
+.item-3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px;
+  width: 77px;
+  height: 77px;
+  background: url(../img/icon_sprites.png) -107px -107px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003196}}
+.item-4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px;
+  width: 77px;
+  height: 77px;
+  background: url(../img/icon_sprites.png) -107px -10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003205}}
+.line__menu {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003214}}
+.logotype-2 {
+  width: 160px;
+  height: 64px;
+  background: url(../img/logo_sprites.png) -10px -139px;
+  margin-left: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003220}}
+.contacts_section {
+  margin-right: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003223}}
+.contact {
+  width: 242px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6em;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003233}}
+.pol:before, .pol:after {
+  content: url(../img/line.png);
+  position: absolute;
+  left: 0px;
+  top: -3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003239}}
+.pol:after {
+  left: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_main\.scss}line{font-family:\00003242}}
+.mail {
+  color: #ffffff;
+  text-decoration: none; }
+
+@media screen and (max-width: 385px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\000033}}
+  .head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 375px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\000038}}
+  .logotype {
+    margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000311}}
+  .logo {
+    margin-left: 0;
+    margin-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000315}}
+  .form {
+    margin-right: 0;
+    margin-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000319}}
+  .main {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000322}}
+  .text-main p {
+    margin-bottom: 0px;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000327}}
+  .all-elements {
+    width: 375px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000336}}
+  .item__desc {
+    width: 170px;
+    font-size: 9pt; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000341}}
+  .line__menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000346}}
+  .logotype-2 {
+    margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000350}}
+  .contacts_section {
+    margin-right: 0; } }
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000356}}
+  .head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000361}}
+  .logotype {
+    margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000364}}
+  .logo {
+    margin-left: 0;
+    margin-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000368}}
+  .form {
+    margin-right: 0;
+    margin-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000372}}
+  .main {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000375}}
+  .text-main p {
+    margin-bottom: 0px;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000380}}
+  .all-elements {
+    width: 375px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000389}}
+  .item__desc {
+    width: 170px;
+    font-size: 9pt; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000394}}
+  .line__menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\0000399}}
+  .logotype-2 {
+    margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/My\%20Computer\/Desktop\/lab\%206\/css\/_media\.scss}line{font-family:\00003103}}
+  .contacts_section {
+    margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */
